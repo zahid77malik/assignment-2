@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    background: 
+        url("../assets/bg.png"),
+        linear-gradient(to top, rgba(255, 228, 181, 1) 1.2rem,#ffffff 60%)
+    ;
+  }
+  .header, .curriculumm, .stories{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  
