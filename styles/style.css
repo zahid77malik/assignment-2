@@ -18,3 +18,387 @@
     margin: 0 auto;
   }
   
+  
+  /* shared style */
+  .display-flex{
+    display: flex;
+  }
+  .primary-button{
+    width: 197px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 12px;
+    border: none;
+  }
+  .skyblue{
+    color:#01ACFD;
+  }
+  .orange{
+    color: #FEA301;
+  }
+  .lightblue{
+    color: #05D4DF;
+  }
+  .mediumblue{
+    color: #5D58EF ;
+  }
+  .blck{
+    background-color: black;
+  }
+  .blck:hover{
+    background-color: #05D4DF;
+  }
+  .bg-lightblue{
+    background-color: #01ACFD;
+  }
+  .bg-green{
+    background-color: rgba(149, 178, 38, 1);
+  }
+  .bg-semiblue{
+    background-color: rgba(93, 88, 240, 1);
+  }
+
+  .font-bold{
+    font-weight: bold;
+  }
+
+  /* nav styles */
+  .navbar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    
+  }
+
+  .nav-tools-parent{
+    list-style: none;
+    margin: 0 186px;
+    
+  }
+
+  .nav-tools{
+    padding: 20px;
+  }
+  .nav-button{
+    width: 197px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #FEA301;
+    color: white;
+    border-radius: 12px;
+    border: none;
+  }
+  .hamburger{
+    display: none;
+  }
+
+  .hr-line{
+    display: none;
+  }
+  /* Marquee style */
+
+  marquee{
+    background-color: coral;
+    height: 30px;
+  }
+
+  /* Banner styles */
+  .banner{
+    align-items: center;
+  }
+
+  .banner-text{
+    margin-right: 50px;
+  }
+.banner-text h1{
+    font-size: 4rem;
+}
+
+.banner-btn{
+    width: 197px ;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+}
+
+
+/* STandard Curriculum Style */
+
+
+.standard-header{
+  justify-content: center;
+  font-size: 2.9rem;
+}
+.curriculum-cart{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+.curriculum-cart-details1{
+
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 18px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) 40%,#ffffff 60%);
+  border: none;
+  box-shadow: 0 0 28.3px .94px rgba(0, 0, 0, 0.05);
+
+}
+
+.curriculum-cart-details2{
+
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 18px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) 40%,#ffffff 60%);
+  border: none;
+  box-shadow: 0 0 28.3px .94px rgba(0, 0, 0, 0.05);
+
+  margin: 0 28px;
+
+}
+
+.curriculum-cart-details3{
+
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 18px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1) 40%,#ffffff 60%);
+  border: none;
+  box-shadow: 0 0 28.3px .94px rgba(0, 0, 0, 0.05);
+
+}
+
+
+
+.cart-padding{
+  padding: 10px 0;
+}
+
+
+.arrow{
+  justify-content: center;
+  gap: 10px;
+}
+.arow-div{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: orange;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+    border: none;
+
+}
+
+.arow-div:hover{
+  background-color: #05D4DF;
+}
+
+
+/* Stories section--------------------- */
+
+.big-image-cart{
+  max-width: 540px;
+  background-color:white;
+  border-radius: 16px;
+}
+.big-btn-container{
+  transform: translate(0,-30px);
+  padding-left: 20px;
+}
+.cart{
+  transform: translate(20px,-30px);
+}
+.cart-small{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+ 
+}
+.img-radius{
+  border-radius: 16px 16px 0 0 ;
+  width: 100%;
+}
+.small-cart{
+  background-color: white;
+  border-radius: 16px ;
+}
+
+.stories-section{
+  display: flex;
+  gap: 20px;
+}
+
+.hidden-cart{
+  display: none;
+}
+
+.view-btn{
+  justify-content: center;
+  padding-top: 80px;
+}
+
+/* Footer styles section--------------- */
+
+footer{
+  background-color: rgba(1, 172, 253, 1);
+  margin-top: 60px;
+}
+
+
+.kid-icon{
+  
+  align-items: center;
+}
+.logo{
+  width: 80px;
+  height: 80px;
+  f
+}
+.footer-width{
+  max-width: 1080px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  padding:  40px 0;
+  color: #FFFFFF;
+}
+  
+
+.secondpart{
+  display: flex;
+  justify-content: space-between;
+}
+.about  li{
+  list-style: none;
+}
+.about  li a{
+  text-decoration: none;
+  color: white;
+}
+
+  /* Responsive for Mobile */
+
+  @media screen and (max-width: 576px) {
+    .navbar{
+       display: flex;
+       justify-content: space-between;
+       margin: 20px;       
+    }
+    .navbar h3{
+        display: none;
+    }
+    .nav-tools-parent{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .hamburger{
+        display:block;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+
+        background-color:black;
+        margin: 6px ;
+    }
+    
+    .hr-line{
+      background-color: #FEA301;
+      display: block;
+    }
+
+    /* banner */
+
+    .banner-text h1{
+      font-size: 2rem;
+  }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-image{
+        max-width: 100%;
+    }
+    .banner-text{
+        margin: 0px;
+        text-align: center;
+    }
+
+    /* Standard Curriculum */
+
+    .curriculum-cart{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .curriculum-cart-details2{
+      margin: 10px 0;
+      
+    }
+    .arrow{
+      display: none;
+    }
+    .standard-header{
+      text-align: center;
+      font-size: 1.6rem;
+    }
+
+    /* stories section----------- */
+    .big-image-cart{
+      display: none;
+    }
+    .hidden-cart{
+      display: block;
+    }
+    .cart{
+      transform: translate(8px,-20px);
+    }
+    
+    .primary-button{
+      width: 120px;
+      height: 30px;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: white;
+      border-radius: 10px;
+    }
+    /* footer responsive */
+
+    .footer-width{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding-left: 10px;
+    }
+    .secondpart{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding-left: 10px;
+    }
+    .about li a {
+      color: white;
+    }
+    
+  }
